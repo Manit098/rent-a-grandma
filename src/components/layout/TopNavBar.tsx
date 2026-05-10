@@ -7,7 +7,7 @@ export function TopNavBar() {
   const { showTooltip, hideTooltip } = useTooltip();
 
   return (
-    <nav className="fixed top-8 left-1/2 -translate-x-1/2 w-[94%] max-w-container-max rounded-full bg-surface/60 backdrop-blur-3xl border border-white/20 shadow-[0_30px_60px_rgba(0,0,0,0.04)] z-[100] flex justify-between items-center px-10 py-5">
+    <nav className="fixed top-4 md:top-8 left-1/2 -translate-x-1/2 w-[94%] max-w-container-max rounded-full bg-surface/60 backdrop-blur-3xl border border-white/20 shadow-[0_30px_60px_rgba(0,0,0,0.04)] z-[100] flex justify-between items-center px-4 py-3 md:px-10 md:py-5">
       <div 
         className="font-headline-lg text-2xl tracking-tighter text-on-surface"
         onMouseEnter={showTooltip}
@@ -23,7 +23,7 @@ export function TopNavBar() {
           </a>
         ))}
       </div>
-      <MagneticButton className="bg-secondary text-on-secondary px-8 py-3 rounded-full font-label-sm shadow-lg hover:shadow-secondary/20 active:scale-95 transition-all">
+      <MagneticButton className="hidden sm:block bg-secondary text-on-secondary px-6 py-2 md:px-8 md:py-3 rounded-full font-label-sm shadow-lg hover:shadow-secondary/20 active:scale-95 transition-all">
         Find Your Grandma
       </MagneticButton>
     </nav>

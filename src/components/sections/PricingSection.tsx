@@ -9,7 +9,7 @@ export function PricingSection() {
     <section className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-section-gap">
       <div className="text-center mb-48">
         <h2 
-          className="font-display-lg text-display-lg tracking-tighter"
+          className="font-display-lg text-4xl sm:text-5xl md:text-display-lg tracking-tighter"
           onMouseEnter={showTooltip}
           onMouseLeave={hideTooltip}
         >
@@ -30,11 +30,11 @@ export function PricingSection() {
           <button className="w-full py-6 rounded-full border border-primary text-primary font-label-sm hover:bg-primary hover:text-white transition-all duration-700 uppercase tracking-[0.2em] text-xs">Begin Contract</button>
         </div>
         {/* Pro (The Heirloom) */}
-        <div className="bg-secondary-container p-1 rounded-[1rem] shadow-[0_60px_120px_rgba(73,102,64,0.15)] scale-105 z-10">
+        <div className="bg-secondary-container p-1 rounded-[1rem] shadow-[0_60px_120px_rgba(73,102,64,0.15)] md:scale-105 z-10">
           <div className="bg-secondary-container p-14 h-full flex flex-col items-center text-center rounded-[0.8rem] border-2 border-secondary/20 relative">
             <div className="absolute -top-6 left-1/2 -translate-x-1/2 bg-primary text-on-primary px-10 py-3 rounded-full text-[10px] font-bold uppercase tracking-[0.3em] shadow-2xl">The Favored Heir</div>
             <span className="font-label-sm uppercase tracking-[0.4em] text-secondary mb-12 block border-b border-secondary/20 pb-4 w-full">The Favorite</span>
-            <div className="font-display-lg text-7xl mb-12 text-on-secondary-container">$49<span className="text-xl font-light opacity-30">/mo</span></div>
+            <div className="font-display-lg text-5xl md:text-7xl mb-12 text-on-secondary-container">$49<span className="text-xl font-light opacity-30">/mo</span></div>
             <ul className="font-body-lg text-on-secondary-container space-y-8 mb-20 flex-grow font-medium">
               <li className="flex items-center justify-center gap-2" onMouseEnter={showTooltip} onMouseLeave={hideTooltip}>
                 <span className="material-symbols-outlined text-sm">check_circle</span>

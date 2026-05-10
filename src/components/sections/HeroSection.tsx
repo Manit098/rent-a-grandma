@@ -35,17 +35,17 @@ export function HeroSection() {
 
       <div className="relative z-10 max-w-6xl stagger-reveal">
         <h1 
-          className="font-display-xl text-display-lg md:text-display-xl mb-12 text-on-surface tracking-tight leading-[0.85]"
+          className="font-display-xl text-6xl sm:text-7xl md:text-display-lg lg:text-display-xl mb-8 md:mb-12 text-on-surface tracking-tight leading-[0.85]"
           onMouseEnter={showTooltip}
           onMouseLeave={hideTooltip}
         >
           <span className="reveal-1">You</span> <span className="reveal-1">haven't</span> <span className="reveal-2">eaten</span> <span className="reveal-2">properly</span> <span className="reveal-3">in</span> <span className="reveal-4">weeks.</span>
         </h1>
-        <p className="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface-variant/70 mb-20 italic font-light tracking-wide reveal-4">
+        <p className="font-headline-lg text-2xl sm:text-headline-lg-mobile md:text-headline-lg text-on-surface-variant/70 mb-12 md:mb-20 italic font-light tracking-wide reveal-4">
           Now they can tell you.
         </p>
         <div className="flex flex-col md:flex-row items-center justify-center gap-10 reveal-4">
-          <MagneticButton className="group relative flex items-center gap-6 bg-primary text-on-primary px-16 py-9 rounded-full font-body-lg text-xl shadow-[0_30px_70px_rgba(40,40,40,0.4)] hover:shadow-[0_45px_90px_rgba(0,0,0,0.5)] transition-all duration-700 overflow-hidden">
+          <MagneticButton className="group relative flex items-center gap-4 md:gap-6 bg-primary text-on-primary px-8 py-5 md:px-16 md:py-9 rounded-full font-body-lg text-lg md:text-xl shadow-[0_30px_70px_rgba(40,40,40,0.4)] hover:shadow-[0_45px_90px_rgba(0,0,0,0.5)] transition-all duration-700 overflow-hidden">
             <span className="absolute inset-0 bg-white/10 translate-y-full group-hover:translate-y-0 transition-transform duration-500"></span>
             <span className="material-symbols-outlined relative z-10 text-2xl" style={{ fontVariationSettings: "'FILL' 1" }}>call</span>
             <span className="relative z-10 flex flex-col items-start leading-tight">

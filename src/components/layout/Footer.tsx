@@ -2,8 +2,8 @@ export function Footer() {
   return (
     <footer className="bg-surface pt-section-gap pb-20 border-t border-outline-variant/20">
       <div className="flex flex-col items-center text-center px-margin-mobile md:px-margin-desktop w-full max-w-container-max mx-auto">
-        <div className="font-display-lg text-headline-xl md:text-[180px] text-on-surface mb-24 tracking-tighter opacity-5 select-none pointer-events-none">Rent-A-Grandma.ai</div>
-        <div className="flex flex-wrap justify-center gap-16 mb-32">
+        <div className="font-display-lg text-4xl sm:text-headline-xl md:text-[180px] text-on-surface mb-24 tracking-tighter opacity-5 select-none pointer-events-none">Rent-A-Grandma.ai</div>
+        <div className="flex flex-wrap justify-center gap-6 md:gap-16 mb-16 md:mb-32">
           {["Philosophy", "Safety", "Careers", "Privacy", "Terms"].map((item) => (
             <a key={item} className="text-on-surface-variant/60 font-body-md hover:text-primary transition-all relative group uppercase tracking-widest text-xs" href="#">
               {item}

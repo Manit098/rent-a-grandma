@@ -11,7 +11,7 @@ export function FeaturesSection() {
         <div className="text-center mb-48">
           <span className="font-label-sm text-secondary uppercase tracking-[0.5em] block mb-12 opacity-40">Useless Proprietary Tech</span>
           <h2 
-            className="font-display-lg text-display-lg leading-tight tracking-tighter mx-auto max-w-4xl"
+            className="font-display-lg text-4xl sm:text-5xl md:text-display-lg leading-tight tracking-tighter mx-auto max-w-4xl"
             onMouseEnter={showTooltip}
             onMouseLeave={hideTooltip}
           >

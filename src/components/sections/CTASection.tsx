@@ -11,13 +11,13 @@ export function CTASection() {
         <div className="absolute inset-0 shadow-[inset_0_0_300px_rgba(0,0,0,0.8)]"></div>
       </div>
       <div className="relative z-10 px-margin-mobile stagger-reveal">
-        <h2 className="font-display-xl text-display-lg md:text-[160px] mb-16 text-white leading-[0.7] tracking-tighter">
+        <h2 className="font-display-xl text-6xl sm:text-8xl md:text-[160px] mb-16 text-white leading-[0.7] tracking-tighter">
           <span className="reveal-1">She</span> <br/>
           <span className="reveal-2">already</span> <br/>
           <span className="reveal-3">made</span> <br/>
           <span className="reveal-4">soup.</span>
         </h2>
-        <MagneticButton className="pulse-heart bg-white text-black px-24 py-12 rounded-full font-display-lg text-4xl shadow-[0_0_100px_rgba(255,255,255,0.3)] hover:scale-110 active:scale-95 transition-all duration-1000">
+        <MagneticButton className="pulse-heart bg-white text-black px-12 py-6 md:px-24 md:py-12 rounded-full font-display-lg text-2xl md:text-4xl shadow-[0_0_100px_rgba(255,255,255,0.3)] hover:scale-110 active:scale-95 transition-all duration-1000">
           Come home
         </MagneticButton>
         <p className="font-body-lg mt-16 text-white/40 tracking-[0.4em] uppercase text-[10px] font-bold">Don't let it get cold. You know how she gets.</p>
